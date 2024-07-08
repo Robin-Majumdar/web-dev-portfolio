@@ -14,6 +14,10 @@
     background-position: top left, bottom right;
 }
 /* span style */
+.secondary-bg{
+    background-color: #FFF8F3;
+
+}
 .span-primary{
     color: #FD6E0A;
 }
@@ -28,10 +32,18 @@
     padding: 15px 30px;
     border-radius: 5px;
     border: none;
-
-
 }
 
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    
+}
 
 /* nav style */
 nav{
@@ -82,4 +94,103 @@ nav li a{
 }
 .banner-profile-pic{
     width: 500px;
+}
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About section */
+.about{
+    border: 4px solid green;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 120px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+
+
+/* What I do SECTION START */
+.text-center{
+    text-align: center;
+}
+.skills{
+    /* border: 4px solid rgb(14, 51, 172); */
+    border-radius: 10px;
+    margin-top: 120px;
+    background-color: #FFF8F3;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: aqua;
+    box-shadow: 0px 6px 50px 0px black;
+    /* box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); */
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-description{
+    font-weight: 600px;
+    /* color: black; */
+}
+
+
+/* A summary of My Resume START */
+.resume{
+    background-color: #FFF8F3;
+    border: 2px solid grey;
+    margin-top: 120px;
+}
+.section-title{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    padding: 30px;
+    gap: 24px;
+}
+.experience p{
+    color: #757575;
+    /* color: #FD6E0A; */
+}
+.experience .experience-sub-title{
+        color: #757575;
+        /* color: #FD6E0A; */
+}
+
+.download-cv{
+    margin-top: 50px;
+}
+
+/* Footer style section */
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 100px 150px;
+    margin-top: 20px;
+}
+.footer-colum{
+    width: 50%;
+    /* border-radius: 10px;
+    background-color: #FD6E0A; */
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: none;
 }
